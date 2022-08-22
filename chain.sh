@@ -1,1 +1,0 @@
-geth --datadir ./.dev-chain --dev --vmdebug --http --http.api personal,web3,eth,net --http.corsdomain "https://remix.ethereum.org"

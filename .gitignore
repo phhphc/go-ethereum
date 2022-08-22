@@ -1,2 +1,5 @@
 .keystore
 .dev-chain
+build
+gen
+.vscode

@@ -1,0 +1,9 @@
+version: "3.9"
+
+services:
+  geth:
+    build: .
+    network_mode: "host"
+    container_name: "geth"
+    volumes:
+      - .dev-chain/:/dev-chain
